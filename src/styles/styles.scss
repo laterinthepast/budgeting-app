@@ -1,0 +1,47 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.welcome {
+  &-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
+    &:hover {
+      transition: 0.1s all ease;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+}
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  &-wrapper {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 50%;
+    } 
+  }
+  &-title {
+    font-size: 0.9rem;
+  }
+  &-text {
+    font-size: 0.7rem;
+    height: 300px !important;
+    overflow: scroll;
+  }
+}
