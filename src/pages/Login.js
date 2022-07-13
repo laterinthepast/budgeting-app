@@ -9,11 +9,7 @@ import React, { useState } from "react";
 
 
 const Content = styled.div`
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+
 `
 
 
@@ -39,7 +35,7 @@ const Login = () => {
   );
   return (
 
-    <Container className="login-wrapper">
+    <Container>
       <Content>
         <Row>
           <h1 className="welcome-text">welcome to budgeting app</h1>
