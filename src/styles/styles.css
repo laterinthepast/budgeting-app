@@ -7,6 +7,9 @@ body {
   width: 100% !important;
   height: 100% !important;
 }
+.App{
+  margin: 20px;
+}
 
 .welcome-card {
   display: -webkit-box;
