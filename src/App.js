@@ -19,13 +19,12 @@ class App extends Component {
             
           </header>
           <main>
-            <section className="page">
+            <section className="d-flex justify-content-center align-items-center main">
               <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/login" element={<Login />}></Route>
                 <Route path="/budget" element={<Budget />}></Route>
               </Routes>
-
             </section>
           </main>
 

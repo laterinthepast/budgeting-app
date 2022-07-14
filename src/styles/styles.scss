@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
 html,
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* NAVBAR */
 .navlinks {
   text-decoration: none;
 }
+.navbar {
+  height: auto !important;
+}
 .logo {
-    height: 5vh !important;
+    position: fixed;
+    width: 5vw;
+    left: 2vw;
+    top: 10vh;
 }
 
 .d-center {
@@ -40,7 +50,12 @@ body {
   }
 }
 
-.full-height {
+.main {
   height: 95vh;
   background-color: #ab82ce;
+}
+
+.btn-primary {
+  width: 150px;
+
 }
