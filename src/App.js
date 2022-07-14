@@ -16,6 +16,7 @@ class App extends Component {
         <div className="app">
           <header>
             {<Navbar />}
+            
           </header>
           <main>
             <section className="page">
