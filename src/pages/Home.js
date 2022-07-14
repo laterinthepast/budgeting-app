@@ -1,24 +1,25 @@
 import React from 'react';
-import {Image, Col, Container, Row,} from 'react-bootstrap';
-import styled from "styled-components";
-import img5 from '../images/5.gif';
-const Content = styled.div`
+import { Image, Col, Container, Row, Button } from 'react-bootstrap';
 
-`
+import img5 from '../images/5.gif';
+
+
 
 const Home = () => {
   return (
-   <Container classname="container" className="d-flex align-items-center">
-    <Content>
+    <Container fluid="lg" className="full-height d-flex justify-content-center align-items-center ">
       <Row className="d-flex justify-content-center align-items-center">
-        <Col className="dupa"> <h1>Better Solution For Your Budget</h1><h2>Manage your expenses and track your spending habits. Set up your goals and start saving today.</h2>
-        <button type="button" class="btn btn-light"  >Let’s start!</button>
+        <Col md={6}>
+          <h1>Better Solution For Your Budget</h1>
+          <p className='fw-light fs-5 pt-5 pb-5'>Manage your expenses and track your spending habits. Set up your goals and start saving today.</p>
+          <Button variant="danger">Let's go!</Button>
         </Col>
-        <Col className="dupa1"> <Image src={img5} className="w-100" ></Image></Col>
+        <Col md={6}>
+          <Image src={img5} className="w-100" >
+          </Image></Col>
       </Row>
-    </Content>
-   </Container>
-    
+    </Container>
+
   )
 }
 
