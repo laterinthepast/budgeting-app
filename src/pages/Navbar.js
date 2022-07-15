@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
                     <div className="navbar-nav ">
                         <a className="navlinks" href="/">
-                            <NavLink to="/login" className="fs-5 text-light nav-link">Login</NavLink>
+                            <NavLink to="/login" className="fs-5 text-light nav-link">Login t</NavLink>
                         </a>
                         <a className="navlinks" href="/">
                             <NavLink to="/budget" className="fs-5 text-light nav-link">Budget</NavLink>
