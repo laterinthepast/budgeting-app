@@ -13,3 +13,8 @@ npm start to view
 - types of budgets
 - what calculations are needed
 - might need research how much  
+
+
+
+# ATM - create signup and login pages with props and add redux to manage application data.
+# token based authentication with django rest framework and djoser
