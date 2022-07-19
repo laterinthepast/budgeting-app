@@ -58,15 +58,8 @@ const Login = () => {
                     Paste your 10 characters username
                   </Form.Text>
                 </Card.Text>
-
-              
-                  <a href="/Home.js">
-                    Login </a>
-               
-
-
-
-
+                <a href="/Home.js">
+                  Login </a>
               </Card.Body>
             </Card>
           </Col>
