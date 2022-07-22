@@ -1,7 +1,8 @@
 # Budgeting app
 
 Budgeting app build on React
-
+npm i
+packages needed - bootstrap, jsonwebtoken, cors, body-parser, dotenv
 npm start to view
 
 
