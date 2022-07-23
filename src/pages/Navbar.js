@@ -24,9 +24,6 @@ const Navbar = () => {
                         <a className="navlinks" href="/">
                             <NavLink to="/budget" className="fs-5 text-light nav-link">Budget</NavLink>
                         </a>
-                        <a className="navlinks" href="/">
-                            <NavLink to="/dashboard" className="fs-5 text-light nav-link">Dashboard</NavLink>
-                        </a>
                     </div>
                 </div>
             </div>

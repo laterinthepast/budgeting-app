@@ -8,10 +8,6 @@ import Home from "./pages/Home";
 // import Login from "./pages/Login";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-
-import PrivateRoute from './Utils/PrivateRoute';
-import PublicRoute from './Utils/PublicRoute';
 
 class App extends Component {
   render() {
@@ -20,15 +16,14 @@ class App extends Component {
         <div className="app">
           <header>
             {<Navbar />}
+            
           </header>
           <main>
             <section className="d-flex justify-content-center align-items-center main">
               <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="budget" element={<Budget />}></Route>
-                <Route path="dashboard" element={<PublicRoute component={Dashboard}/>}/>
-                <Route path="login" element={<PrivateRoute component={Login}/>}/>
-                
+                <Route path="/" element={<Home/>}></Route>
+                <Route path="/login" element={<Login />}></Route>
+                <Route path="/budget" element={<Budget />}></Route>
               </Routes>
             </section>
           </main>
@@ -40,5 +35,3 @@ class App extends Component {
 }
 
 export default App;
-
-
